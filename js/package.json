@@ -1,0 +1,26 @@
+{
+  "name": "xstream-crypto",
+  "version": "0.0.0",
+  "description": "Public key encryption system combining X25519 Diffie-Hellman with the STREAM construction",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miscreant/xstream.git"
+  },
+  "keywords": [
+    "cryptography",
+    "security"
+  ],
+  "author": "Tony Arcieri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miscreant/xstream/issues"
+  },
+  "homepage": "https://github.com/miscreant/xstream#readme",
+  "dependencies": {
+    "mocha": "^3.1.2"
+  }
+}

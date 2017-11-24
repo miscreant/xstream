@@ -1,0 +1,13 @@
+[package]
+name        = "xstream"
+description = "Public key encryption system combining X25519 Diffie-Hellman with the STREAM construction"
+version     = "0.0.0"
+license     = "MIT"
+authors     = ["Tony Arcieri <bascule@gmail.com>"]
+homepage    = "https://miscreant.io"
+repository  = "https://github.com/miscreant/xstream"
+readme      = "README.md"
+categories  = ["cryptography"]
+keywords    = ["cryptography", "security"]
+
+[dependencies]
