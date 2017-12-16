@@ -11,8 +11,20 @@
 [gitter-image]: https://badges.gitter.im/badge.svg
 [gitter-link]: https://gitter.im/miscreant/Lobby
 
+A public key encryption system supporting streaming message encryption/decryption.
+
+## What is XSTREAM?
+
 XSTREAM (pronounced "extreme!") is a public key encryption system combining the
 X25519 Elliptic Curve Diffie-Hellman with the STREAM construction.
+
+### Key Derivation Function
+
+<img alt="XSTREAM KDF" src="https://miscreant.io/images/xstream-kdf.svg" width="600px">
+
+### STREAM Construction
+
+<img alt="XSTREAM KDF" src="https://miscreant.io/images/stream.svg" width="600px">
 
 ## Contributing
 
