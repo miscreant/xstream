@@ -1,5 +1,16 @@
 # XSTREAM
 
+[![Build Status][build-image]][build-link]
+[![MIT Licensed][license-image]][license-link]
+[![Gitter Chat][gitter-image]][gitter-link]
+
+[build-image]: https://secure.travis-ci.org/miscreant/xstream.svg?branch=master
+[build-link]: http://travis-ci.org/miscreant/xstream
+[license-image]: https://img.shields.io/badge/license-MIT-blue.svg
+[license-link]: https://github.com/miscreant/miscreant/blob/master/LICENSE.txt
+[gitter-image]: https://badges.gitter.im/badge.svg
+[gitter-link]: https://gitter.im/miscreant/Lobby
+
 XSTREAM (pronounced "extreme!") is a public key encryption system combining the
 X25519 Elliptic Curve Diffie-Hellman with the STREAM construction.
 
