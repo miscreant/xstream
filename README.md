@@ -20,11 +20,11 @@ X25519 Elliptic Curve Diffie-Hellman with the STREAM construction.
 
 ### Key Derivation Function
 
-<img alt="XSTREAM KDF" src="https://miscreant.io/images/xstream-kdf.svg" width="500px">
+<img alt="XSTREAM KDF" src="https://miscreant.io/images/xstream-kdf.svg" width="600px">
 
 ### STREAM Construction
 
-<img alt="XSTREAM KDF" src="https://miscreant.io/images/stream.svg" width="500px">
+<img alt="XSTREAM KDF" src="https://miscreant.io/images/stream.svg" width="600px">
 
 ## Contributing
 
