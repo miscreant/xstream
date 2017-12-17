@@ -1,8 +1,4 @@
-# XSTREAM
-
-[![Build Status][build-image]][build-link]
-[![MIT Licensed][license-image]][license-link]
-[![Gitter Chat][gitter-image]][gitter-link]
+# XSTREAM [![Build Status][build-image]][build-link] [![MIT Licensed][license-image]][license-link] [![Gitter Chat][gitter-image]][gitter-link]
 
 [build-image]: https://secure.travis-ci.org/miscreant/xstream.svg?branch=master
 [build-link]: http://travis-ci.org/miscreant/xstream
@@ -11,11 +7,11 @@
 [gitter-image]: https://badges.gitter.im/badge.svg
 [gitter-link]: https://gitter.im/miscreant/Lobby
 
-A public key encryption system supporting streaming message encryption/decryption.
+A public-key encryption system supporting streaming message encryption/decryption.
 
 ## What is XSTREAM?
 
-XSTREAM (pronounced "extreme!") is a public key encryption system combining the
+**XSTREAM** (pronounced "extreme!") is a public key encryption system combining the
 X25519 Elliptic Curve Diffie-Hellman with the STREAM construction.
 
 ### Key Derivation Function
@@ -25,6 +21,14 @@ X25519 Elliptic Curve Diffie-Hellman with the STREAM construction.
 ### STREAM Construction
 
 <img alt="XSTREAM KDF" src="https://miscreant.io/images/stream.svg" width="600px">
+
+NOTE: As **XSTREAM** derives a unique symmetric key every time the KDF is
+invoked, and also supports an optional salt value passed directly to HKDF,
+the `N` parameter passed to the underlying **STREAM** construction is fixed to
+all-zeroes.
+
+The API is explicitly designed to prevent encrypting more than one message under
+the same ephemeral key.
 
 ## Contributing
 
