@@ -14,8 +14,15 @@ A public-key encryption system supporting streaming message encryption/decryptio
 **XSTREAM** (pronounced *"extreme!"*) is a public key encryption system combining
 X25519 Elliptic Curve Diffie-Hellman ([RFC 7748]) with the [STREAM] construction.
 
+The implementations in this repository are built on top of the
+[Miscreant] misuse-resistant symmetric encryption library, which provides
+the [AES-SIV] and [AES-PMAC-SIV] algorithms.
+
 [RFC 7748]: https://tools.ietf.org/html/rfc7748
 [STREAM]: https://github.com/miscreant/miscreant/wiki/STREAM
+[Miscreant]: https://github.com/miscreant/miscreant
+[AES-SIV]: https://github.com/miscreant/miscreant/wiki/AES-SIV
+[AES-PMAC-SIV]: https://github.com/miscreant/miscreant/wiki/AES-PMAC-SIV
 
 ### Key Derivation Function
 
