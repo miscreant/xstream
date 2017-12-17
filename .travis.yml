@@ -20,12 +20,12 @@ matrix:
     python: 3.6
     before_script: cd python
   - language: ruby
-    rvm: 2.4.2
+    rvm: 2.4.3
     before_script: cd ruby
   - language: ruby
     rvm: 2.2.2
     before_script: cd ruby
   - language: rust
-    rust: stable
+    rust: nightly
     before_script: cd rust
 

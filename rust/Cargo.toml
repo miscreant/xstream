@@ -8,6 +8,21 @@ homepage    = "https://miscreant.io"
 repository  = "https://github.com/miscreant/xstream"
 readme      = "README.md"
 categories  = ["cryptography"]
-keywords    = ["cryptography", "security"]
+keywords    = ["cryptography", "encryption", "security"]
 
 [dependencies]
+clear_on_drop = { version = "0.2", features = ["nightly"] }
+digest = "0.7"
+generic-array = "0.9"
+hkdf = "0.3"
+miscreant = "0.2"
+rand = "0.3"
+sha2 = "0.7"
+x25519-dalek = "0.1"
+
+[dev-dependencies]
+data-encoding = "2.0"
+serde_json = "1"
+
+[patch.crates-io.miscreant]
+git = "https://github.com/miscreant/miscreant.git"
