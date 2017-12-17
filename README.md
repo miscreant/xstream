@@ -11,7 +11,7 @@ A public-key encryption system supporting streaming message encryption/decryptio
 
 ## What is XSTREAM?
 
-**XSTREAM** (pronounced "extreme!") is a public key encryption system combining
+**XSTREAM** (pronounced *"extreme!"*) is a public key encryption system combining
 X25519 Elliptic Curve Diffie-Hellman ([RFC 7748]) with the [STREAM] construction.
 
 [RFC 7748]: https://tools.ietf.org/html/rfc7748
