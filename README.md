@@ -11,14 +11,17 @@ A public-key encryption system supporting streaming message encryption/decryptio
 
 ## What is XSTREAM?
 
-**XSTREAM** (pronounced "extreme!") is a public key encryption system combining the
-X25519 Elliptic Curve Diffie-Hellman with the STREAM construction.
+**XSTREAM** (pronounced "extreme!") is a public key encryption system combining
+X25519 Elliptic Curve Diffie-Hellman ([RFC 7748]) with the [STREAM] construction.
+
+[RFC 7748]: https://tools.ietf.org/html/rfc7748
+[STREAM]: https://github.com/miscreant/miscreant/wiki/STREAM
 
 ### Key Derivation Function
 
 <img alt="XSTREAM KDF" src="https://miscreant.io/images/xstream-kdf.svg" width="600px">
 
-### STREAM Construction
+### [STREAM] Construction
 
 <img alt="XSTREAM KDF" src="https://miscreant.io/images/stream.svg" width="600px">
 
