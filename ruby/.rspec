@@ -1,4 +1,5 @@
 --color
---format=documentation
+--format documentation
 --order random
+--warnings
 --require spec_helper
