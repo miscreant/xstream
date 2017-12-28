@@ -1,5 +1,8 @@
+# frozen_string_literal: true
+
 require "bundler/setup"
 require "xstream"
+require "support/test_vectors"
 
 RSpec.configure do |config|
   # Monkeypatching sucks!
