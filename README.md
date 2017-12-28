@@ -18,6 +18,9 @@ The implementations in this repository are built on top of the
 [Miscreant] misuse-resistant symmetric encryption library, which provides
 the [AES-SIV] and [AES-PMAC-SIV] algorithms.
 
+[More information on XSTREAM](https://github.com/miscreant/xstream/wiki/XSTREAM)
+is available in the Wiki.
+
 [RFC 7748]: https://tools.ietf.org/html/rfc7748
 [STREAM]: https://github.com/miscreant/miscreant/wiki/STREAM
 [Miscreant]: https://github.com/miscreant/miscreant
@@ -40,6 +43,22 @@ all-zeroes.
 The API is explicitly designed to prevent encrypting more than one message under
 the same ephemeral key.
 
+## Help and Discussion
+
+Have questions? Want to suggest a feature or change?
+
+* [Gitter]: web-based chat about Miscreant projects including XSTREAM
+* [Google Group]: join via web or email ([miscreant-crypto+subscribe@googlegroups.com])
+
+[Gitter]: https://gitter.im/miscreant/Lobby
+[Google Group]: https://groups.google.com/forum/#!forum/miscreant-crypto
+[miscreant-crypto+subscribe@googlegroups.com]: mailto:miscreant-crypto+subscribe@googlegroups.com?subject=subscribe
+
+## Documentation
+
+[Please see the XSTREAM Wiki](https://github.com/miscreant/xstream/wiki)
+for more information about XSTREAM.
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/miscreant/xstream
@@ -48,11 +67,6 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/miscre
 
 Copyright (c) 2017 [The Miscreant Developers][AUTHORS].
 Distributed under the MIT license. See [LICENSE.txt] for further details.
-
-Some language-specific subprojects include sources from other authors with more
-specific licensing requirements, though all projects are MIT licensed.
-Please see the respective **LICENSE.txt** files in each project for more
-information.
 
 [AUTHORS]: https://github.com/miscreant/miscreant/blob/master/AUTHORS.md
 [LICENSE.txt]: https://github.com/miscreant/miscreant/blob/master/LICENSE.txt
