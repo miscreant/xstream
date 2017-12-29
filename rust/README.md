@@ -78,6 +78,19 @@ implementation, however actual constant time behavior has not been verified.
 
 Use this library at your own risk.
 
+## Code of Conduct
+
+We abide by the [Contributor Covenant][cc] and ask that you do as well.
+
+For more information, please see [CODE_OF_CONDUCT.md].
+
+[cc]: https://contributor-covenant.org
+[CODE_OF_CONDUCT.md]: https://github.com/miscreant/xstream/blob/master/CODE_OF_CONDUCT.md
+
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/miscreant/xstream.
+
 ## License
 
 Copyright (c) 2017 [The Miscreant Developers][AUTHORS].
