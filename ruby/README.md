@@ -1,10 +1,4 @@
-# xstream.rb
-
-[![crate][crate-image]][crate-link]
-[![Docs][docs-image]][docs-link]
-[![Build Status][build-image]][build-link]
-[![MIT licensed][license-image]][license-link]
-[![Gitter Chat][gitter-image]][gitter-link]
+# xstream.rb [![Latest Version][gem-shield]][gem-link] [![Build Status][build-image]][build-link] [![Yard Docs][docs-image]][docs-link] [![MIT licensed][license-image]][license-link] [![Gitter Chat][gitter-image]][gitter-link]
 
 [gem-shield]: https://badge.fury.io/rb/xstream.svg
 [gem-link]: https://rubygems.org/gems/xstream
