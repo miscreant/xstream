@@ -1,7 +1,7 @@
 # xstream.js [![Latest Version][npm-shield]][npm-link] [![Build Status][build-image]][build-link] [![Known Vulnerabilities][snyk-image]][snyk-link] [![MIT licensed][license-image]][license-link] [![Gitter Chat][gitter-image]][gitter-link]
 
-[npm-shield]: https://img.shields.io/npm/v/xstream.svg
-[npm-link]: https://www.npmjs.com/package/xstream
+[npm-shield]: https://img.shields.io/npm/v/xstream-crypto.svg
+[npm-link]: https://www.npmjs.com/package/xstream-crypto
 [build-image]: https://secure.travis-ci.org/miscreant/xstream.svg?branch=master
 [build-link]: http://travis-ci.org/miscreant/xstream
 [snyk-image]: https://snyk.io/test/github/miscreant/xstream/badge.svg?targetFile=js%2Fpackage.json
