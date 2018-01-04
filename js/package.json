@@ -2,25 +2,52 @@
   "name": "xstream-crypto",
   "version": "0.0.0",
   "description": "Public key encryption system combining X25519 Diffie-Hellman with the STREAM construction",
-  "main": "index.js",
-  "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec"
-  },
+  "homepage": "https://github.com/miscreant/xstream/tree/master/js",
+  "main": "release/index.js",
+  "types": "src/index.ts",
+  "author": "Tony Arcieri",
+  "license": "(MIT OR Apache-2.0)",
+  "keywords": [
+    "cryptography",
+    "encryption",
+    "streaming",
+    "security"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/miscreant/xstream.git"
   },
-  "keywords": [
-    "cryptography",
-    "security"
-  ],
-  "author": "Tony Arcieri",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/miscreant/xstream/issues"
   },
-  "homepage": "https://github.com/miscreant/xstream#readme",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --require ts-node/register test/**/*.spec.ts"
+  },
   "dependencies": {
-    "mocha": "^3.1.2"
+    "@stablelib/hash": "^0.5.0",
+    "@stablelib/hkdf": "^0.7.2",
+    "@stablelib/sha256": "^0.7.2",
+    "@stablelib/x25519": "^0.7.2",
+    "miscreant": "^0.3.2"
+  },
+  "devDependencies": {
+    "@types/chai": ">= 4.0.10",
+    "@types/chai-as-promised": ">= 7.1.0",
+    "@types/mocha": ">= 2.2.45",
+    "@types/node": ">= 8.5.2",
+    "async-file": "^2.0.2",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^2.6.3",
+    "gulp-typescript": "^3.1.6",
+    "mocha": "^4.1.0",
+    "mocha-typescript": "^1.1.12",
+    "tjson-js": "^0.1.2",
+    "ts-node": "^4.1.0",
+    "typescript": "^2.6.2"
   }
 }
