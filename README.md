@@ -43,11 +43,33 @@ all-zeroes.
 The API is explicitly designed to prevent encrypting more than one message under
 the same ephemeral key.
 
+## Language Support
+
+**XSTREAM** libraries are available for the following languages:
+
+| Language               | Version                              |
+|------------------------|--------------------------------------|
+| [Go][go-link]          | N/A                                  |
+| [JavaScript][npm-link] | [![npm][npm-shield]][npm-link]       |
+| [Python][pypi-link]    | [![pypi][pypi-shield]][pypi-link]    |
+| [Ruby][gem-link]       | [![gem][gem-shield]][gem-link]       |
+| [Rust][crate-link]     | [![crate][crate-shield]][crate-link] |
+
+[go-link]: https://github.com/miscreant/xstream/tree/master/go
+[npm-shield]: https://img.shields.io/npm/v/xstream-crypto.svg
+[npm-link]: https://www.npmjs.com/package/xstream
+[pypi-shield]: https://img.shields.io/pypi/v/xstream.svg
+[pypi-link]: https://pypi.python.org/pypi/xstream/
+[gem-shield]: https://badge.fury.io/rb/xstream.svg
+[gem-link]: https://rubygems.org/gems/xstream
+[crate-shield]: https://img.shields.io/crates/v/xstream.svg
+[crate-link]: https://crates.io/crates/xstream
+
 ## Help and Discussion
 
 Have questions? Want to suggest a feature or change?
 
-* [Gitter]: web-based chat about Miscreant projects including XSTREAM
+* [Gitter]: web-based chat about Miscreant projects including **XSTREAM**
 * [Google Group]: join via web or email ([miscreant-crypto+subscribe@googlegroups.com])
 
 [Gitter]: https://gitter.im/miscreant/Lobby
