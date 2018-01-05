@@ -1,6 +1,6 @@
 {
   "name": "xstream-crypto",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Public key encryption system combining X25519 Diffie-Hellman with the STREAM construction",
   "homepage": "https://github.com/miscreant/xstream/tree/master/js",
   "main": "release/index.js",

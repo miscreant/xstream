@@ -8,7 +8,7 @@ test_requirements = []
 
 setup(
     name="xstream",
-    version="0.0.0",
+    version="0.1.0",
     description="Public key encryption system combining X25519 Diffie-Hellman with the STREAM construction",
     long_description=(
         "XSTREAM combines the X25519 Elliptic Curve Diffie-Hellman function"
