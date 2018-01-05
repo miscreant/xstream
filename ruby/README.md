@@ -5,7 +5,7 @@
 [build-image]: https://secure.travis-ci.org/miscreant/xstream.svg?branch=master
 [build-link]: http://travis-ci.org/miscreant/xstream
 [docs-image]: https://img.shields.io/badge/yard-docs-blue.svg
-[docs-link]: http://www.rubydoc.info/gems/xstream/0.0.0
+[docs-link]: http://www.rubydoc.info/gems/xstream/0.1.0
 [license-image]: https://img.shields.io/badge/license-MIT/Apache2.0-blue.svg
 [license-link]: https://github.com/miscreant/xstream#license
 [gitter-image]: https://badges.gitter.im/badge.svg
