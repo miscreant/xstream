@@ -19,7 +19,6 @@ extern crate sha2;
 extern crate x25519_dalek;
 
 mod error;
-mod kdf;
 mod keys;
 mod traits;
 mod x25519_hkdf;
