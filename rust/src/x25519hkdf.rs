@@ -8,15 +8,19 @@ use super::{Encryptor, Decryptor};
 use clear_on_drop::clear::Clear;
 use digest::Digest;
 use error::Error;
+use generic_array::GenericArray;
 use generic_array::typenum::Unsigned;
-use kdf::derive_key;
-use keys;
+use hkdf::Hkdf;
+use keys::{self, KEY_SIZE};
 use miscreant::aead;
 use miscreant::stream::{self, NONCE_SIZE};
 use rand::Rng;
 use sha2::Sha256;
 use std::marker::PhantomData;
-use x25519_dalek::{generate_secret, generate_public};
+use x25519_dalek::{generate_secret, generate_public, diffie_hellman};
+
+/// Domain separation string passed as HKDF info
+const HKDF_INFO: &[u8] = b"XSTREAM_X25519_HKDF";
 
 /// Use a prefix of all zeroes for the STREAM nonce prefix, since we derive a
 /// unique key for every STREAM. The STREAM construction handles producing a
@@ -178,4 +182,28 @@ where
     fn open_last(self, ad: &[u8], ciphertext: &[u8]) -> Result<Vec<u8>, Error> {
         self.stream.open_last(ad, ciphertext).or(Err(Error))
     }
+}
+
+/// Derive a symmetric encryption key from the combination of a public and
+/// private key and salt using X25519 D-H and HKDF
+fn derive_key<D: Digest>(
+    private_key: &[u8; KEY_SIZE],
+    public_key: &[u8; KEY_SIZE],
+    salt: Option<&[u8]>,
+    length: usize,
+) -> Vec<u8> {
+    // Compute the ECDH shared secret
+    let mut shared_secret = diffie_hellman(private_key, public_key);
+
+    // Use HKDF to derive a symmetric encryption key from the shared secret
+    let mut hkdf: Hkdf<D> = Hkdf::new(
+        &shared_secret,
+        salt.unwrap_or(&GenericArray::<u8, D::OutputSize>::default()),
+    );
+
+    let symmetric_key = hkdf.derive(HKDF_INFO, length);
+    shared_secret.clear();
+
+    // TODO: avoid allocating a Vec when the hkdf crate adds no_std support
+    symmetric_key
 }
