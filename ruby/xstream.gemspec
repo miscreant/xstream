@@ -10,9 +10,9 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/miscreant/xstream/"
   spec.summary       = "Public key encryption system combining X25519 Diffie-Hellman with the STREAM construction"
   spec.description = <<-DESCRIPTION.strip.gsub(/\s+/, " ")
-    XSTREAM combines the X25519 Elliptic Curve Diffie-Hellman function"
-    "with HKDF and the STREAM construction for streaming authenticated"
-    "encryption. The result is an easy-to-use public key cryptosystem.
+    XSTREAM combines the X25519 Elliptic Curve Diffie-Hellman function
+    with HKDF and the STREAM construction for streaming authenticated
+    encryption. The result is an easy-to-use public key cryptosystem.
   DESCRIPTION
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"
