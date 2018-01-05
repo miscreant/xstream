@@ -27,6 +27,27 @@ is available in the Wiki.
 [AES-SIV]: https://github.com/miscreant/miscreant/wiki/AES-SIV
 [AES-PMAC-SIV]: https://github.com/miscreant/miscreant/wiki/AES-PMAC-SIV
 
+### Is it any good?
+
+[Yes.](https://news.ycombinator.com/item?id=3067434)
+
+### Is it "Production Ready™"?
+
+<img alt="DANGER: EXPERIMENTAL" src="https://miscreant.io/images/experimental.svg" width="400px" height="50px">
+
+tl;dr: Not ready yet. Check back later.
+
+**XSTREAM** is an experimental construction whose design has not yet been
+finalized which is still potentially subject to change. It is not yet suitable
+to use in production systems.
+
+The design has not yet been thoroughly reviewed and we're presently soliciting
+feedback from cryptographers.
+
+Additionally all **XSTREAM** libraries are v0.1, which is hopefully a sign,
+at least for a cryptography library, that you should probably wait before
+attempting to use it.
+
 ### Key Derivation Function
 
 <img alt="XSTREAM KDF" src="https://miscreant.io/images/xstream-kdf.svg" width="600px">
