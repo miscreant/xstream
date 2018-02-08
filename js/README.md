@@ -3,7 +3,7 @@
 [npm-shield]: https://img.shields.io/npm/v/xstream-crypto.svg
 [npm-link]: https://www.npmjs.com/package/xstream-crypto
 [build-image]: https://secure.travis-ci.org/miscreant/xstream.svg?branch=master
-[build-link]: http://travis-ci.org/miscreant/xstream
+[build-link]: https://travis-ci.org/miscreant/xstream
 [snyk-image]: https://snyk.io/test/github/miscreant/xstream/badge.svg?targetFile=js%2Fpackage.json
 [snyk-link]: https://snyk.io/test/github/miscreant/xstream?targetFile=js%2Fpackage.json
 [license-image]: https://img.shields.io/badge/license-MIT/Apache2.0-blue.svg

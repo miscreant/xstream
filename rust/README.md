@@ -11,7 +11,7 @@
 [docs-image]: https://docs.rs/xstream/badge.svg
 [docs-link]: https://docs.rs/xstream/
 [build-image]: https://secure.travis-ci.org/miscreant/xstream.svg?branch=master
-[build-link]: http://travis-ci.org/miscreant/xstream
+[build-link]: https://travis-ci.org/miscreant/xstream
 [license-image]: https://img.shields.io/badge/license-MIT/Apache2.0-blue.svg
 [license-link]: https://github.com/miscreant/miscreant/blob/master/LICENSE.txt
 [gitter-image]: https://badges.gitter.im/badge.svg

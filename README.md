@@ -1,7 +1,7 @@
 # XSTREAM [![Build Status][build-image]][build-link] [![MIT/Apache 2.0 Licensed][license-image]][license-link] [![Gitter Chat][gitter-image]][gitter-link]
 
 [build-image]: https://secure.travis-ci.org/miscreant/xstream.svg?branch=master
-[build-link]: http://travis-ci.org/miscreant/xstream
+[build-link]: https://travis-ci.org/miscreant/xstream
 [license-image]: https://img.shields.io/badge/license-MIT/Apache2.0-blue.svg
 [license-link]: https://github.com/miscreant/miscreant/blob/master/LICENSE.txt
 [gitter-image]: https://badges.gitter.im/badge.svg
