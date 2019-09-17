@@ -1,3 +1,5 @@
+*NOTE: This project has been archived! Please check out the STREAM functionality in [JMSE](https://github.com/jmse-json) as a spiritual successor*
+
 # XSTREAM [![Build Status][build-image]][build-link] [![MIT/Apache 2.0 Licensed][license-image]][license-link] [![Gitter Chat][gitter-image]][gitter-link]
 
 [build-image]: https://secure.travis-ci.org/miscreant/xstream.svg?branch=master
